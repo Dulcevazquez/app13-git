@@ -5,7 +5,7 @@
   id= "com.phonegap.example9"
   version= "1.0.0">
   
-  <name> app9 Geolicalizacion</name>
+  <name> app9 Geolocalizacion</name>
   
   <description>
  Muestra la ubicacion del dispositivo de acuerdo al GPS
@@ -31,6 +31,8 @@
   <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
   
   <!-- Plugin para geolocalizar -->
+   <pluging name="cordova-pluging-geolocation" source="npm"/>
+   
    
 	<!--colocar icono de app-->
 	 
